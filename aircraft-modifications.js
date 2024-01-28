@@ -6,8 +6,7 @@ function checkAndImplementChanges(){
   }
   // f16
   if (geofs.aircraft.instance.id == 7) {
-    geofs.aircraft.instance.engines[0].thrust = 1000000000
-    geofs.aircraft
+    geofs.aircraft.instance.engines[0].thrust = 100000
   }
 }
 var repeatChecks = setInterval(checkAndImplementChanges, 1000)
