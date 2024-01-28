@@ -4,5 +4,10 @@ function checkAndImplementChanges(){
     geofs.aircraft.instance.engines[0].thrust = 1000000
     geofs.aircraft.instance.engines[1].thrust = 1000000
   }
+  // f16
+  if (geofs.aircraft.instance.id == 7) {
+    geofs.aircraft.instance.engines[0].thrust = 1000000000
+    geofs.aircraft
+  }
 }
 var repeatChecks = setInterval(checkAndImplementChanges, 1000)
