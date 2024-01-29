@@ -1,5 +1,4 @@
-function crecherInit() {
-  function checkAndImplementChanges(){
+function checkAndImplementChanges(){
   // make mq9b fun :D
   if (geofs.aircraft.instance.id == 2989) {
     geofs.aircraft.instance.engines[0].thrust = 1000000
@@ -16,4 +15,3 @@ function crecherInit() {
   }
 }
 var repeatChecks = setInterval(checkAndImplementChanges, 1000)
-}
